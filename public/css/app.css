@@ -8,14 +8,13 @@ div, p, body, header, footer, section, article, nav, h1, h2, h3, h4
 
 img
 {
-	border: none; /*removes border if image is a link*/
+	border: none;
 	margin: 0;
     padding: 0;
     width: 100%;
 }
 
 /*General HTML Selectors*/
-
 body
 {
 	font-family: Arial, sans-serif;
@@ -23,7 +22,7 @@ body
 	background-color: #f4f4f4;
 }
 
-a:link, a:visited, a:hover, a:active
+a, a:link, a:visited, a:hover, a:active
 {
 	text-decoration: none; /*removes underlines from links*/
 }
