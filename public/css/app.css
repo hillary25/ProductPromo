@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+div, p, body, header, footer, section, article, nav, h1, h2, h3, h4
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none; /*removes border if image is a link*/
+	margin: 0;
+	padding: 0;
+}
+
+/*General HTML Selectors*/
+
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	background-color: #f4f4f4;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+	text-decoration: none; /*removes underlines from links*/
+}
+
+p
+{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h2
+{
+	font-size: 25px;
+	font-family: 'Concert One', cursive;
+	color: #111111;
+	text-align: center;
+}
