@@ -4,13 +4,11 @@ const path = require('path'); // path lets us navigate the file system / folders
 // heroku assigns a port when it deploys via the process (environment variables - coming)
 // locally this will run @ port 3000; remotely  it'll run wherever heroku tells it to run
 
-const port = process.env.PORT || 3030; // a double pipe (||) means "or"
+const port = process.env.PORT || 3000; // a double pipe (||) means "or"
 
 const app = express();
 
-app.use(express.static('public'));
-
-
+app.use(express.static(__dirname + '/public'));
 
 // a forward slash is the home route (same as index.html)
 app.get('/', (req, res) => {
