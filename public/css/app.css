@@ -169,7 +169,6 @@ hr
 }
     
 /*PRODUCTS SECTION*/
-
 #productTitle
 {
 	margin-bottom: 30px;
@@ -224,4 +223,17 @@ hr
 #backProducts a:hover
 {
 	color: #4b4b4b;
+}
+
+/*FOOTER*/
+#footerSection
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#socialMedia img
+{
+    width: 5%;
 }
