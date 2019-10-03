@@ -73,7 +73,6 @@ hr
 {
     padding-top: 2%;
     padding-bottom: 2%;
-    cursor: pointer;
 }
 
 .large-img
@@ -180,7 +179,7 @@ hr
 	background-color: lightblue;
 	margin-top: 20px;
 	padding-top: 30px;
-	padding-bottom: 2px;
+	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
 
@@ -205,7 +204,6 @@ hr
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin-top: -10px;
-	margin-bottom: 2%;
 	text-align: left;
 }
 
