@@ -165,5 +165,60 @@ hr
 
 #backAbout a:hover
 {
+    
+/*PRODUCTS SECTION*/
+#productTitle
+{
+	margin-bottom: 30px;
+}
+
+#colourBox
+{
+	background-color: lightblue;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 2px;
+	margin-bottom: 30px;
+}
+
+.productName
+{
+	text-align: center;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.productSku
+{
+	text-align: center;
+	font-family: 'Concert One', cursive;
+	font-size: 16px;
+	margin-top: -18px;
+}
+
+.productDesc
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+#backProducts
+{
+	text-align: center;
+}
+
+#backProducts a
+{
+	color: rgb(0, 0, 0);
+	font-family: 'Concert One', cursive;
+	font-size: 18px;
+}
+
+#backProducts a:hover
+{
 	color: #4b4b4b;
 }
