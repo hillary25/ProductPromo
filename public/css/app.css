@@ -4,7 +4,6 @@ div, p, body, header, footer, section, article, nav, h1, h2, h3, h4
 {
 	margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 img
@@ -20,7 +19,8 @@ body
 {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
-	background-color: #f4f4f4;
+    background-color: #f4f4f4;
+    text-align: center;
 }
 
 a:link, a:visited, a:hover, a:active
