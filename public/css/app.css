@@ -73,7 +73,7 @@ hr
 {
     padding-top: 2%;
     padding-bottom: 2%;
-    text-decoration: none;
+    cursor: pointer;
 }
 
 .large-img
@@ -205,22 +205,8 @@ hr
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin-top: -10px;
-	margin-bottom: 5px;
+	margin-bottom: 2%;
 	text-align: left;
-}
-
-#backProducts
-{
-    text-align: center;
-    margin-top: 3%;
-    color: rgb(0, 0, 0);
-	font-family: 'Concert One', cursive;
-	font-size: 18px;
-}
-
-#backProducts a:hover
-{
-	color: #4b4b4b;
 }
 
 /*FOOTER*/
