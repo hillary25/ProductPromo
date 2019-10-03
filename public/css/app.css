@@ -63,11 +63,11 @@ hr
 }
 
 /*HEADER*/
-#logo
+#logo a
 {
     padding-top: 2%;
     padding-bottom: 2%;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .large-img
@@ -206,7 +206,10 @@ hr
 #backProducts
 {
     text-align: center;
-    margin-top: 1%;
+    margin-top: 3%;
+    color: rgb(0, 0, 0);
+	font-family: 'Concert One', cursive;
+	font-size: 18px;
 }
 
 #backProducts a
