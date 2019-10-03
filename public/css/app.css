@@ -63,7 +63,13 @@ hr
 }
 
 /*HEADER*/
-#logo a
+#headerSection
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#logo
 {
     padding-top: 2%;
     padding-bottom: 2%;
