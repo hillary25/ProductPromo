@@ -41,3 +41,24 @@ h2
 	color: #111111;
 	text-align: center;
 }
+
+hr
+{
+	color: rgb(128, 127, 131);
+}
+
+.hidden
+{
+	display: none;
+}
+
+.clearFix:after
+{
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+/*HEADER*/
