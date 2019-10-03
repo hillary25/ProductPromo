@@ -22,7 +22,7 @@ body
 	background-color: #f4f4f4;
 }
 
-a, a:link, a:visited, a:hover, a:active
+a:link, a:visited, a:hover, a:active
 {
 	text-decoration: none; /*removes underlines from links*/
 }
@@ -66,6 +66,7 @@ hr
 {
     padding-top: 2%;
     padding-bottom: 2%;
+    text-decoration: none;
 }
 
 .large-img
@@ -160,23 +161,6 @@ hr
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 }
-
-#backAbout
-{
-	text-align: center;
-}
-
-#backAbout a
-{
-	color: rgb(0, 0, 0);
-	font-family: 'Concert One', cursive;
-	font-size: 18px;
-}
-
-#backAbout a:hover
-{
-	color: #4b4b4b;
-}
     
 /*PRODUCTS SECTION*/
 #productTitle
@@ -220,7 +204,8 @@ hr
 
 #backProducts
 {
-	text-align: center;
+    text-align: center;
+    margin-top: .5 px;
 }
 
 #backProducts a
