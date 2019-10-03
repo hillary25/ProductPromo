@@ -4,7 +4,6 @@ div, p, body, header, footer, section, article, nav, h1, h2, h3, h4
 {
 	margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 img
@@ -20,12 +19,13 @@ body
 {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
-	background-color: #f4f4f4;
+    background-color: #f4f4f4;
+    text-align: center;
 }
 
 a:link, a:visited, a:hover, a:active
 {
-	text-decoration: none; /*removes underlines from links*/
+	text-decoration: none;
 }
 
 p
@@ -63,11 +63,16 @@ hr
 }
 
 /*HEADER*/
+#headerSection
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 #logo
 {
     padding-top: 2%;
     padding-bottom: 2%;
-    text-decoration: none;
 }
 
 .large-img
@@ -174,7 +179,7 @@ hr
 	background-color: lightblue;
 	margin-top: 20px;
 	padding-top: 30px;
-	padding-bottom: 2px;
+	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
 
@@ -199,26 +204,7 @@ hr
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin-top: -10px;
-	margin-bottom: 5px;
 	text-align: left;
-}
-
-#backProducts
-{
-    text-align: center;
-    margin-top: 1%;
-}
-
-#backProducts a
-{
-	color: rgb(0, 0, 0);
-	font-family: 'Concert One', cursive;
-	font-size: 18px;
-}
-
-#backProducts a:hover
-{
-	color: #4b4b4b;
 }
 
 /*FOOTER*/
