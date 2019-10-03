@@ -23,10 +23,10 @@ body
     text-align: center;
 }
 
-a:link, a:visited, a:hover, a:active
+/* a:link, a:visited, a:hover, a:active
 {
-	text-decoration: none; /*removes underlines from links*/
-}
+	text-decoration: none;
+} */
 
 p
 {
