@@ -6,10 +6,10 @@ This project was built for an assignment for Fanshawe College. Individually, we 
 * NodeJS
 * Express
 ## Author
-* **Hillary Strong** (https://github.com/hillary25)
+* Hillary Strong (https://github.com/hillary25)
 ## Things I Wanted to Achieve
 - [x] Responsive design (mobile, tablet and desktop)
-- [x] Use Sass instead of CS
+- [x] Use Sass instead of CSS
 - [x] Deploy using Heroku (https://www.heroku.com)
 ## Acknowledgements
 * Social media icons (https://www.flaticon.com/packs/social-network-logo-collection)
